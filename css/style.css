@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+font-family: 'Fredoka', sans-serif;
+}
+
+/*UTILITY*/
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 5px solid black;
+}
+
+.text-centering{
+    text-align: center;
+}
+
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
+}
+/*UTILITY*/
+
+p{
+    margin-bottom: 50px;
+}
+
+/*TITLE*/
+header{
+    padding: 30px 0 50px;
+    color: #ff3d81;
+    font-size: 1em;
+}
+/*TITLE*/
+
+/*CARDS*/
+
+.pull-left{
+    float: left;
+}
+
+.box{
+    background-color: black;
+    /*float: left;*/
+    width: calc(100% / 3);
+}
+/*CARDS*/
+
