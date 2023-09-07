@@ -5,7 +5,7 @@
 }
 
 body{
-font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 /*UTILITY*/
@@ -16,7 +16,7 @@ font-family: 'Fredoka', sans-serif;
 }
 
 .debug{
-    border: 5px solid black;
+    border: 5px solid rgb(255, 0, 0);
 }
 
 .text-centering{
@@ -55,16 +55,30 @@ header{
 .box{
     background-color: black;
     /*float: left;*/
-    width: calc(100% / 3 );
-    margin: 0 30px 30px 0;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    box-shadow: 8px 8px 30px grey;
 }
 .img-size{
-    width: 20%;
+    width: 25%;
+    
 }
 
 .dati{
    color: white; 
    display: inline-block;
+   padding: 14px ;
+   
 }
+
+.dati address{
+    color: #6fe5ff;
+}
+
+address:hover{
+    color: red;
+}
+
+
 /*CARDS*/
 
