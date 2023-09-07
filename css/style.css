@@ -57,7 +57,7 @@ header{
     /*float: left;*/
     width: calc(100% / 3 - 40px);
     margin: 20px;
-    box-shadow: 8px 8px 30px grey;
+    box-shadow: 5px 5px 15px grey;
 }
 .img-size{
     width: 25%;
